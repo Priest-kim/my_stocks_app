@@ -4,7 +4,13 @@ import styled from 'styled-components'
 const Footer = () => {
     return (
         <Foot>
-            <Github href=''>Github Repo.</Github>
+            <div>
+                <Github href='https://github.com/Priest-kim/my_stocks_app' target="_blank">Github Repo.</Github>
+            </div>
+            <div>
+                <Github href='https://priest-kim.github.io/' target="_blank">@{new Date().getFullYear()} Blog - Priest-kim</Github>
+            </div>
+
         </Foot>
     )
 }
@@ -16,13 +22,16 @@ const Foot = styled.footer`
     bottom: 0;
     width: inherit;
     height: 5rem;
-    border-top: 4px solid ${(pros) => pros.theme.primaryColor};
+    border-top: 4px solid ${(pros) => pros.theme.green};
     text-align: center;
+    padding-top: 70px;
+    background-color: #181415;
 `;
 
 const Github = styled.a`
     color: gray;
-    
+
+    text-transform: uppercase;
     &:hover {
         text-decoration: underline;
     }

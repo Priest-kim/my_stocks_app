@@ -3,10 +3,14 @@ import styled, { ThemeProvider } from "styled-components";
 import Footer from '../layouts/Footer';
 import Header from '../layouts/Header';
 import Main from '../routes/Main';
+import Categories from './Categories';
 
 const theme = {
-    primaryColor: '#bfff00',
-    secondaryColor: '#DEF7DE'
+    green: '#bfff00',
+    pink: '#f29886',
+    black: '#181415',
+    lightBlack: '#211c1d',
+    fontSize_xl: '1.5rem'
 }
 
 const Ground = () => {
@@ -14,6 +18,7 @@ const Ground = () => {
         <ThemeProvider theme={theme}>
             <Base>
                 <Header />
+                <Categories />
                 <Main />
                 <Footer />
             </Base>
