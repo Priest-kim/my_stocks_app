@@ -34,6 +34,11 @@ const Head = styled.div`
 const Title = styled.div`
     font-size: 2rem;
     font-weight: 600;
+
+    &:hover {
+        color: ${(props) => props.theme.pink};
+        cursor: pointer;
+    }
 `;
 
 const MenuIcon = styled.i`

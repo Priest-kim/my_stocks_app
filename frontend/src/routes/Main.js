@@ -5,16 +5,16 @@ import StockList from '../components/Stock/StockList';
 
 const Main = () => {
     return (
-        <Base>
+        <MainWrapper>
             <StockList />
-        </Base>
+        </MainWrapper>
     )
 }
 
 export default Main
 
-const Base = styled.div`
-            height: 200vh;
-            width: inherit;
-            background-color: ${(props) => props.theme.lightBlack};
-            `
+const MainWrapper = styled.div`
+    height: 200vh;
+    width: inherit;
+    background-color: ${(props) => props.theme.lightBlack};
+`

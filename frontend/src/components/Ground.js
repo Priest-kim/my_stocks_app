@@ -16,12 +16,12 @@ const theme = {
 const Ground = () => {
     return (
         <ThemeProvider theme={theme}>
-            <Base>
+            <Wrapper>
                 <Header />
                 <Categories />
                 <Main />
                 <Footer />
-            </Base>
+            </Wrapper>
         </ThemeProvider>
     )
 }
@@ -29,7 +29,7 @@ const Ground = () => {
 export default Ground;
 
 
-const Base = styled.div`
+const Wrapper = styled.div`
     width: 800px;
     margin: auto;
     position: relative;

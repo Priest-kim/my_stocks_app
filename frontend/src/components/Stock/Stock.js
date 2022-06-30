@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 const Stock = ({ stock }) => {
     return (
-        <Card>{(stock.bName)}</Card>
+        <Card>{(stock.longName)}</Card>
     )
 }
 

@@ -4,14 +4,19 @@ import Stock from './Stock';
 
 const stocks = [
     {
-        bName: 'apple',
+        displayName: 'Apple',
+        symbol: "AAPL",
+        longName: 'Apple Inc.',
+        fullExchangeName: "NasdaqGS",
+        quoteSourceName: "Nasdaq Real Time Price",
+        currency: 'UDS',
+        requlerMarketPreviousPrice: 137.44,
+        regulerMarketPrice: 139.23,
+        regularMarketDayLow: 136.67,
+        regularMarketDayHigh: 140.67,
+
     },
-    {
-        bName: 'google',
-    },
-    {
-        bName: 'samsung',
-    },
+
 ]
 
 
@@ -21,7 +26,6 @@ const StockList = () => {
             {stocks.map((stock, idx) => (
                 <Stock key={idx} stock={stock} />
             ))}
-
         </List>
 
     )
