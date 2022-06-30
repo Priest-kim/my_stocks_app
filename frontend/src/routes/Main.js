@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components';
-import StockList from '../components/Stock/StockList';
+import StockList from '../components/Card/StockList';
 
 
 const Main = () => {

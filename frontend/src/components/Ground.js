@@ -30,7 +30,7 @@ export default Ground;
 
 
 const Wrapper = styled.div`
-    width: 800px;
+    width: 700px;
     margin: auto;
     position: relative;
 `

@@ -4,12 +4,12 @@ import styled from 'styled-components'
 
 const categories = [
     {
-        name: "Finance",
+        name: "Market",
         path: "/home",
     },
     {
-        name: "Cryptocurrencies",
-        path: "/coin"
+        name: "Stocks",
+        path: "/stock"
     },
     {
         name: "News",

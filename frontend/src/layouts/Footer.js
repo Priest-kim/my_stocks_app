@@ -21,10 +21,10 @@ const Foot = styled.footer`
     position: fixed;
     bottom: 0;
     width: inherit;
-    height: 5rem;
+    height: 4rem;
     border-top: 4px solid ${(pros) => pros.theme.green};
     text-align: center;
-    padding-top: 70px;
+    padding: 30px 0 20px 0;
     background-color: #181415;
 `;
 
